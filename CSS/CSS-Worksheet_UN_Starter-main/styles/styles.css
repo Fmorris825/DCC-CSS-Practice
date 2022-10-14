@@ -1,0 +1,157 @@
+
+/* This will apply all included styles to the header element */
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* This will apply all included styles to any element which uses the "logo" class*/
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
+}
+
+/* This will apply any included styles to the body element */
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/* Create your own classes below! */
+
+.topper {
+    display: block;
+    background-color: black;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    margin: 0%;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a:hover {
+    color: greenyellow;
+}
+
+.nav-float {
+    float: right;
+
+}
+
+.logo {
+    padding-top: 60px;
+}
+
+.active {
+    background-color:grey;
+}
+
+li a {
+    float: left;
+    padding: 14px;
+}
+
+.box {
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.scheme1 {
+    background-color: black;
+    color: chartreuse;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.scheme_2 {
+    background-color: aliceblue;
+    color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.scheme_3 {
+    background-color: chartreuse;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.full_container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.conatiner1 {
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.div1 {
+    background-color: crimson;
+    color: aqua;
+    height: 100vh;
+    width: 100%;
+}
+
+.div2 {
+    background-color:blueviolet;
+    color: aliceblue;
+    height: 100vh;
+    width: 100%;
+}
+
+.displayclass {
+    height: 100vh;
+    width: 100%;
+}
+
+.bgimage {
+    background-image: url("/images/coffee.jpg");
+    background-repeat: repeat-y;
+}
+
+.bgimage1 {
+    background-image: url("/images/coffee.jpg");
+    object-fit:none;
+    background-repeat: no-repeat;
+}
+
+.bgimage2 {
+    background-image: url("/images/coffee.jpg");
+    background-size: cover;
+}
